@@ -1,0 +1,77 @@
+h2,p,ul,li{
+    text-align: center;
+}
+
+html {
+    background-color: black;
+}
+
+body{
+    background-color: snow;
+    width: 800px;
+    height: 500px;
+    padding:0 0 20px 0;
+    margin:25px auto;
+    border: 5px solid blue;
+}
+
+h1{
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px 0;
+    margin:0;
+    text-shadow: 3px 3px 1px gray;
+}
+
+#selfie{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 95px;
+    right: 250px;
+}
+
+p{
+    font-size: large;
+    font-style: oblique;
+}
+
+.leftbox{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+}
+
+
+
+.rightbox{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    right: 500px;
+}
+
+#name,#birthday,#city{
+    width: 300px;
+    height: 100px;
+}
+
+#interest,#contact{
+    height: 150px;
+}
+
+#mail,#facebook{
+    width: 50px;
+    height: 50px;
+    margin: 0 2px 0 2px;
+}
+
+#mail:hover,#facebook:hover{
+    overflow: hidden;
+    transform: scale(1.2);
+}
