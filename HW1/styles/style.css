@@ -73,4 +73,5 @@ p{
 #contact img:hover{
     overflow: hidden;
     transform: scale(1.2);
+    filter:brightness(1.5);
 }
