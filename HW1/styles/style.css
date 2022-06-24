@@ -23,14 +23,12 @@ h1{
     text-shadow: 3px 3px 1px gray;
 }
 
-#selfie{
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 95px;
-    right: 250px;
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 p{
@@ -38,22 +36,22 @@ p{
     font-style: oblique;
 }
 
-.leftbox{
-    width: 250px;
-    height: auto;
-    position: absolute;
-    top: 100px;
-    left: 220px;
+.selfie img{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
 }
 
 
+.leftbox{
+    width: 250px;
+    height: auto;
+}
 
 .rightbox{
     width: 200px;
     height: auto;
-    position: absolute;
-    top: 100px;
-    right: 500px;
+
 }
 
 #name,#birthday,#city{
